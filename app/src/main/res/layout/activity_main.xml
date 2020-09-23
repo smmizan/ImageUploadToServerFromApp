@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture Normal Images"
+        android:id="@+id/bCaptureNormal"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="#009688"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture High Quality Images"
+        android:id="@+id/bCaptureHigh"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="#009688"
+        android:padding="10dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sending Image To Server"
+        android:textSize="20dp"
+        android:background="#009688"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:id="@+id/bSendImageToServer"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
